@@ -1,1 +1,1 @@
-Namaste-React by Anjali Sawant.
+Hello-React by Anjali Sawant.
