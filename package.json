@@ -1,0 +1,28 @@
+{
+  "name": "hellow-react",
+  "version": "1.0.0",
+  "description": "npm init used and then installing parcel to setup npm",
+  "homepage": "https://github.com/Anjalieee/HELLOW-REACT#readme",
+  "bugs": {
+    "url": "https://github.com/Anjalieee/HELLOW-REACT/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anjalieee/HELLOW-REACT.git"
+  },
+  "license": "ISC",
+  "author": "Anjalieee",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  }
+}
