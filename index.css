@@ -1,4 +1,58 @@
-#parent {
-  font-family: "Times New Roman";
-  color: red;
+.header{
+  display : flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  width: 100%;
+}
+.body{
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.logo{
+  height : 80px;
+  width : 150px;
+}
+.nav-items > ul {
+  margin-top: 20px;
+  display: flex;
+}
+.nav-items > ul > li{
+  font-size: 20px;
+  list-style-type: none;
+  padding: 10px;
+  margin: 0px 10px;
+}
+.Navbar{
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  align-items: center;
+  padding: 10px;
+}
+.res-container{
+  display: flex;
+  flex-wrap:wrap;
+  margin:10px;
+  padding: 5px;
+}
+.res-card {
+  width:212px;
+  height:325px;
+  border: 1px #f0f0f0 solid;
+  padding: 5px;
+  margin:8px;
+}
+.res-card:hover{
+  box-shadow: 0px 0px 10px #0f0f0f;
+  cursor: pointer;
+}
+
+.search{
+  padding: 10px;
+}
+
+.res-logo{
+  width: 200px;
+  height: 120px;
+  margin: 5px;
 }
