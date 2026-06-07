@@ -1,6 +1,6 @@
 import RestaurantCard from "./RestaurantCard";
 import resObj from "../utils/mockData";
-import {useState} from "react";
+import {useState, useEffect} from "react";
 
 const Body = () => {
     const restaurantData = resObj;
@@ -9,19 +9,21 @@ const Body = () => {
 
     return (
         <div className="body">
+            
             <div className="filter">
                 <input type="text" placeholder="Restaurants around you"
-                    value={searchText} onChange={(e) => setSearchText(e.target.value)}
-                />
-                <button className="search"
-                    onClick={() => {
-                        const filtered = searchText.trim() === ""
-                            ? restaurantData
-                            : restaurantData.filter((res) =>
-                                res.info.name.toLowerCase().includes(searchText.toLowerCase())
-                            );
-                        setFilteredRestaurants(filtered);
-                    }}
+                value={searchText} onChange={(e)=>setSearchText(e.target.value)}
+                
+                ></input>
+                <button className="search" 
+                onClick={() => {
+                    const filtered = searchText.trim() === ""
+                        ? restaurantData
+                        : restaurantData.filter((res) =>
+                            res.info.name.toLowerCase().includes(searchText.toLowerCase())
+                        );
+                    setFilteredRestaurants(filtered);
+                }}
                 >Search</button>
 
                 <button className="filter-btn" onClick={() => {
@@ -37,6 +39,7 @@ const Body = () => {
                     {filteredRestaurants.map((restaurant) => (<RestaurantCard key={restaurant.info.resId} resData={restaurant}/>))}
                 </div>
             )}
+
         </div>
     )
 }

@@ -1,4 +1,4 @@
-const ShimmerUI = ()=>{
+const ShimmerUI = () => {
     return (
         <div className= "shimmer-container">
             <div className="shimmer-card"></div>
@@ -16,7 +16,6 @@ const ShimmerUI = ()=>{
             <div className="shimmer-card"></div>
             <div className="shimmer-card"></div>
             <div className="shimmer-card"></div>
-            
         </div>
 
     )

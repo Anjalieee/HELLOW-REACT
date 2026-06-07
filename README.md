@@ -21,3 +21,18 @@ TWO TYPES OF EXPORTS:
 2 SUBSEQUENT IMPORTS:
 1. import Component from "./path"
 2. import { constant } from "./path"
+
+MONOLITH | Micro-service architecture
+
+- useEffect usage
+
+- never create states and use usestate hook inside an if/for loops/ functions condition. Causes inconsistency.
+
+Now, dont do a href = about.... because that reloads the entire page. why? use a link component to only re-render the updated component
+
+Routing in we apps
+1. Client-side Routing is what we are implementing as no network calls, just component renders
+2. Server side routing
+
+Dynamic routing:
+-

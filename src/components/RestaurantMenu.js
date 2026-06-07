@@ -14,7 +14,7 @@ const RestaurantMenu = () => {
 
     const fetchData = async () => {
         console.log("fetchData called - starting fetch");
-        const URL = "https://corsproxy.io/https://namastedev.com/api/v1/listRestaurants";
+        const URL = "";
         try { 
             console.log("Fetching from URL:", URL);
             const response = await fetch(URL);
