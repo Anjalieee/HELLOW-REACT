@@ -8,6 +8,11 @@
   flex-wrap: wrap;
   padding: 10px;
 }
+.nav-items{
+  color:#0f0f0f;
+  text-decoration: none;
+}
+
 .logo{
   height : 80px;
   width : 150px;
@@ -46,13 +51,32 @@
   box-shadow: 0px 0px 10px #0f0f0f;
   cursor: pointer;
 }
-
 .search{
-  padding: 10px;
+  margin-right: 18px;
 }
 
 .res-logo{
   width: 200px;
   height: 120px;
   margin: 5px;
+}
+
+.shimmer-card{
+  animation: shimmer 1.5s infinite;
+  width:212px;
+  height:325px;
+  border: 1px #e6bdbd solid;
+  padding: 5px;
+  margin:8px;
+}
+
+.shimmer-container{
+  display: flex;
+  flex-wrap:wrap;
+  margin:10px;
+  padding: 5px;
+}
+
+.filter{
+ display:"flex";
 }

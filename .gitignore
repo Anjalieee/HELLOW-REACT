@@ -3,3 +3,6 @@
 /.parcel-cache
 /trial.txt
 /src/utils/mockData.js
+/testing.txt
+# Local Netlify folder
+.netlify
