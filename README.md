@@ -1,3 +1,8 @@
+Building a responsive food ordering web application using React, implementing component-based architecture, client-side routing, and React Hooks such as useState and useEffect.
+Configured the application using Parcel bundler, leveraging features like Hot Module Replacement (HMR), code splitting, caching, bundling, minification, image optimization, and fast development builds.
+Applied modern React practices including reusable components, state management, modular imports/exports, and seamless navigation without full page reloads.
+Explored scalable frontend architecture concepts such as microservices vs monolithic systems and optimized user experience through efficient rendering and routing.
+
 Hello-React by Anjali Sawant.
 
 #Parcel
